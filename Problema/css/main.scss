@@ -1,0 +1,127 @@
+$color: #3BAFF8;
+
+body {
+	font-family: 'Lato';
+}
+.mt-2{
+	margin-bottom: 2%;
+}
+.navbar-brand {
+	padding: 7px;
+	img {
+		width: 50%;
+	}
+}
+.button {
+	color: $color;
+    border: 1px solid;
+    background: none;
+    border-radius: 17px;
+    padding: 8px 15px;
+} 
+.button:hover {
+    	color: white;
+        border: 1px solid $color;
+        background: $color;
+        border-radius: 17px;
+        padding: 8px 15px;
+}
+.lh {
+	line-height: 1.7;
+}
+.margin {
+	margin: 28px 0 20px; 
+}
+.hero-img {
+	background-image: url(../images/autoc.jpg);
+	margin: 20px 0 50px;
+    background-size: 145%;
+    padding: 140px 0;
+    background-blend-mode: color;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    background-position: 50%;
+    background-repeat: no-repeat;
+
+    p {
+       margin: 28px 0 20px;
+       line-height: 1.7;
+    }
+    i{
+    	margin: 14px;
+    }
+    button {
+
+    	@extend .button;
+    }
+
+}
+.caja-smart {
+
+	padding:50px 0 80px;
+    color: #eee;
+    background-color: #8099A6;
+    margin: 0 0 50px;
+
+	img {
+		width: 100%;
+	}
+	p {
+		@extend .lh;
+		@extend .margin;
+	}
+	span {
+		color: $color;
+	}
+	button {
+		@extend .button;
+	}
+
+}
+.ideas {
+    
+    color: #FDF0C7;
+    margin: 0 0 50px;
+    padding: 50px 0 50px;
+    background-color: #8099A6;
+
+	.text-align {
+		text-align: center;
+	}
+    .row {
+        margin-top: 50px;
+    }
+
+	img {
+		width: 100%;
+	}
+	h4{
+		color: #DAB862;
+	}
+
+}
+footer {
+	text-align: center;
+	padding: 20px 0 40px;
+
+	a {
+        border-radius: 100%;
+        color: $color;
+        border: 1px solid;
+        padding: 10px 12px;
+	}
+	a:hover{
+        border-radius: 10px;
+        color: white;
+        border: 1px solid $color;
+        background-color: $color;
+        padding: 10px 12px;
+	}
+	p {
+		margin-top: 30px;
+	}
+	span {
+		color: $color;
+		margin-top: 30px;
+	}
+}
